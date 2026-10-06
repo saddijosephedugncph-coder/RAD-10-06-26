@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Main {
+        public static void main (String[] args){
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter your name: ");
+        String name = scanner.nextLine();
+
+        System.out.print("Enter your age: ");
+        int age = scanner.nextInt();
+
+        scanner.nextLine();
+        System.out.print("Enter your address: ");
+        String address = scanner.nextLine();
+
+        System.out.print("Enter your weight (in kg): ");
+        double weight = scanner.nextDouble();
+
+        System.out.print("Enter your height (in cm or meters): ");
+        double height = scanner.nextDouble();
+
+        System.out.println("---MY PROFILE TYPESHIT NUHEHEHEHEHE---");
+        System.out.println("My name is " + name + "and I am " + age + "and my address is currently at " + address + "and I weight around " + weight + " and my height is " + height + ".");
+                scanner.close();
+        }
+}
